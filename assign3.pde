@@ -15,7 +15,7 @@ background(0);
  
  for(n=0;n<5;n++){
   z=n*61;
-  image(enemy,z,b);
+ image(enemy,z-n*61,b);
 }
 
 
